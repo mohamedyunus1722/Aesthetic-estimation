@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 
 # Load the trained model
-model = load_model(r"C:\Users\Shubam\Downloads\aesthetic_model.h5")
+model = load_model("aesthetic_model.h5")
 
 # Define the image size
 image_size = (224, 224)
